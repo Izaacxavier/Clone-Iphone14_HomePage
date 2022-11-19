@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #303030;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/SF-Pro-Text-Regular.otf");
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.logo {
+  width: 14px;
+  background-image: url(../img/logo_apple.svg);
+  background-size: cover;
+  opacity: 0.8;
+}
+.logo:hover {
+  opacity: 1;
+}
+.nav-menu {
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+  gap: 20px;
+  list-style: none;
+}
+.menu li a {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #f5f5f7;
+  list-style: none;
+  display: inline-block;
+  aling-items: center;
+  padding: 15px 16px;
+  transition: 0.2s;
+  opacity: 0.8;
+}
+.menu a:hover {
+  opacity: 1;
+}
+.new {
+  width: 100%;
+  height: 100%;
+  color: #bf4800;
+  margin: 15px;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  letter-spacing: -0.008em;
+}
+
+.second-menu ul {
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.second-menu li {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  list-style: none;
+}
+.second-menu {
+  background-color: #fbfbfd;
+  aling-items: center;
+}
+.second-menu a {
+  background-color: #ffff;
+  text-decoration: none;
+  color: #2e2e30;
+}
+.second-menu a:hover {
+  color: #0569cd;
+}
+figure {
+  width: 60px;
+  height: 60px;
+}
+.pic-1 {
+  background-image: url(../img/iphone_14_pro_light__dfhcc00ur2oi_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.pic-2 {
+  background-image: url(../img/iphone_14_light__fwknsxkf80uq_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.pic-3 {
+  background-image: url(../img/iphone_13_light__ewo3e0sf67o2_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.pic-4 {
+  background-image: url(../img/iphone_se_light__fhg8duy6ffau_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+.pic-5 {
+  background-image: url(../img/iphone_se_light__fhg8duy6ffau_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+.pic-6 {
+  background-image: url(../img/iphone_compare_light__f4jj7brpbvm2_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.pic-7 {
+  background-image: url(../img/airpods_light__8oj157p2476a_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 5px;
+}
+.pic-8 {
+  background-image: url(../img/airtag_light__cb2bmnv6aoeu_large.svg);
+  background-repeat: no-repeat;
+}
+.pic-9 {
+  background-image: url(../img/accessories_light__ed5l6ipsevqu_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 10px;
+}
+.pic-10 {
+  background-image: url(../img/iphone_ios_light__b8s4ws8o77iq_large.svg);
+  background-repeat: no-repeat;
+  margin-left: -2px;
+}
+.pic-11 {
+  background-image: url(../img/shop_iphone_light__b2toggskllle_large.svg);
+  background-repeat: no-repeat;
+  margin-left: 15px;
+}
+.title-promo {
+  background-color: #f5f5f7;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 12px;
+  font-family: "SF Pro Text";
+  font-weight: 400;
+}
+.title-promo a {
+  color: #0569cd;
+  text-decoration: none;
+  letter-spacing: inherit;
+}
+.title-promo a:hover {
+  border-bottom: 1px solid #0569cd;
+}
+
+.main-content {
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px;
+}
+#logoiphone14 {
+  width: 120px;
+  margin-top: 15px;
+}
+.main-content h2 {
+  font-size: 48px;
+  padding: 15px;
+  font-style: normal;
+  letter-spacing: -0.09em;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: antialiased;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgb(44, 162, 180),
+    rgb(85, 152, 222) 24%,
+    rgb(127, 135, 255) 45%,
+    rgb(246, 90, 173) 76%,
+    rgb(236, 61, 67)
+  );
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: rgba(0, 0, 0, 0);
+  direction: ltr;
+  display: inline-block;
+}
+.main-content p {
+  color: #6e6e73;
+  font-size: 1rem;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+.main-content h3 {
+  color: #6e6e73;
+  font-size: 1.2rem;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  letter-spacing: 0.011em;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  aling-items: center;
+}
+.btn-comprar {
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color: #fff;
+  background: #0071e3;
+  padding: 8px 16px;
+  border-radius: 980px;
+}
+.btn-saiba {
+  text-decoretion: none;
+  color: #0569cd;
+  font-size: 18px;
+  margin: 8px;
+}
+.btn-saiba:hover {
+  border-bottom: 1px solid #0569cd;
+}
+.product-img img {
+  width: 60%;
+}
+.product-img {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.second-content {
+  width: 100%;
+  height: 892px;
+  background-color: #000;
+  margin-top: -90px;
+}
+.second-content h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  letter-spacing: 0.011em;
+}
+.product-img2 img {
+  width: 50%;
+}
+.product-img2 {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+.product-img2 {
+  width: 782px;
+  height: 542px;
+  background-size: 782px 542px;
+  background-repeat: no-repeat;
+  background-image: url(./img/iphone_14_pro_hero__e4ivycyx40k2_large.jpeg);
+  position: relative;
+  left: 50%;
+  top: 5%;
+  margin-left: -391px;
+}
+.second-content h2 {
+  font-size: 48px;
+  padding: 15px;
+  font-style: normal;
+  letter-spacing: -0.09em;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: antialiased;
+  background-clip: text;
+  background-image: linear-gradient(rgb(255, 182, 255), rgb(179, 68, 255));
+  color: rgba(0, 0, 0, 0);
+}
+.text-footer {
+  margin: 5% 20% 5%;
+  padding: 10px;
+}
+.text-footer li {
+  font-size: 14px;
+  color: #7d7d81;
+  padding: 12px;
+}
+.text-footer span,
+a {
+  font-size: 14px;
+  color: #7d7d81;
+}
+.list-content img {
+  width: 80px;
+  opacity: 0.5;
+}
+.list-content {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #7d7d81;
+  border-top: 0.5px solid #7d7d81;
+  margin: 20px 0;
+}
