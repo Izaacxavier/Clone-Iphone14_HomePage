@@ -22,4 +22,4 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/105816549/202834747-a6aa29ce-227c-41d0-a588-f68e2c99dbbd.gif)
 
 
-Made with with ❤️ By Izaac Xavier 
+By Izaac Xavier 
